@@ -5,7 +5,7 @@ const fs = require('fs-extra');
  * This method returns a cached version if available, else it will get the data via the provided function.
  * @param getData The function that needs to be called when no cached version is available.
  * @param cacheFilename The filename of the file that contains the cached version.
- * @returns {Promise<null>}
+ * @returns the data either from the cache or from the geData function.
  */
 module.exports = async function(getData, cacheFilename) {
   // Check if the environment variable is set.
