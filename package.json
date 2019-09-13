@@ -2,7 +2,6 @@
   "name": "eleventy-cache-example",
   "version": "1.0.0",
   "description": "Example of Eleventy with a cache for JavaScript data files.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +10,9 @@
   "dependencies": {
     "@11ty/eleventy": "^0.9.0",
     "fs-extra": "^8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pheyvaer/eleventy-cache-example.git"
   }
 }
